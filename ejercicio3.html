@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3</title>
+  </head>
+  <body>
+    <img id="foto" src="imagen/velas japonesas.png" alt="Imagen" />
+    <br />
+    <button onclick="mostrarOcultar()">Mostrar/Ocultar</button>
+
+    <script>
+      function mostrarOcultar() {
+        const imagen = document.querySelector("#foto");
+        if (imagen.style.display === "none") {
+          imagen.style.display = "block";
+        } else {
+          imagen.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 5</title>
+  </head>
+  <body>
+    <p id="contador">Clics: 0</p>
+    <button onclick="sumar()">Haz clic</button>
+
+    <script>
+      let n = 0;
+      function sumar() {
+        n++;
+        document.getElementById("contador").innerText = "Clics: " + n;
+      }
+    </script>
+  </body>
+</html>
